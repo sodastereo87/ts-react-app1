@@ -10,7 +10,9 @@ function App() {
       <div className="App">
         {/* "Document Upload" section */}
         <header className="App-header">
-          {/* Your header content */}
+          {/* title */}
+          <p className='title'>Main Title</p>
+          <div style={{ borderBottom: '1px solid #bbb', width: '18%', marginBottom: '20px', marginTop: '0px'}}></div>
         </header>
 
         <Row>
