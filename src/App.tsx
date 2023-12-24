@@ -3,6 +3,7 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import NameForm from './components/nameimput'
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <Row>
               <Col>
                 <div>
-                  text
+                  <NameForm />
                 </div>
               </Col>
             </Row>
